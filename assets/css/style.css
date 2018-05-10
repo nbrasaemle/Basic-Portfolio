@@ -65,7 +65,6 @@ h2 {
 
 body{
     background-image: url("../images/knitting250px_@2X.png");
-    width:960px;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     color: #666666;
@@ -78,6 +77,7 @@ section {
     background-color: #ffffff;
     padding: 20px;
     margin-bottom: 20px;
+    margin: auto;
     
 }
 
