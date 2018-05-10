@@ -12,7 +12,7 @@ h1 {
     background: #4aaaa5;
     color: #ffffff;
     width: 29%;
-    padding: 30px;
+    padding: 25px;
     margin-top: 0px;
     z-index: 2;
     font-size: 30px;
@@ -37,9 +37,9 @@ h2 {
 .navbar {
     text-align: center;
     float: right;
-    margin-top: -80px;
-    margin-bottom: 25px;
-    padding: 30px;
+    margin-top: -70px;
+    margin-bottom: 20px;
+    padding: 25px;
     background-color: #ffffff;    
 }
 
@@ -57,7 +57,7 @@ h2 {
 .navbuttons:hover {
     background-color: #4aaaa5;
     color: #ffffff;
-    padding: 35px 10px;
+    padding: 30px 10px;
 }
 
 .navbuttons:active {
@@ -99,14 +99,16 @@ section {
 #content {
     display: inline-block;
     line-height: 1.5;
+    overflow: auto;
+    display: inline;
 
 }
 
 #img1 {
     width: 200px;
     height: 200px;
-    display: inline-block;
-    float: left;  
+    float: left;
+    margin-right:20px;
 }
 
 /* Contact Settings */
