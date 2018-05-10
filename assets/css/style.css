@@ -1,0 +1,72 @@
+    
+
+body{
+    background-image: url("../images/knitting250px_@2X.png");
+    width:960px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#topnav {
+    background: #ffffff;
+    display: inline;
+    
+    border-bottom: outset;
+    z-index: -1;
+}
+
+.h {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+h1 {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 32%;
+    padding: 30px;
+    margin-top: 0px;
+    z-index: 2;
+    font-size: 32px;
+}
+
+#navbar {
+    text-align: center;
+    float: right;
+    margin-top: -100px;
+    margin-bottom: 25px;
+    padding: 30px;
+    background-color: #ffffff;
+    
+}
+
+section {
+    clear: both;
+    overflow: auto;
+    width: 960px;
+    background-color: #ffffff;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+#img1 {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+
+footer {
+    height: 40px;
+    background-color: #666666;
+    width: 100%;
+    border-top: #4aaaa5 solid 5px;
+    font-size: 10px;
+    color: #ffffff;
+    text-align: center;
+}
