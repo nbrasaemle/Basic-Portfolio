@@ -1,72 +1,141 @@
     
 
-body{
-    background-image: url("../images/knitting250px_@2X.png");
-    width:960px;
-    margin: auto;
-    font-family: Arial, Helvetica, sans-serif
-}
 
-#topnav {
-    background: #ffffff;
-    display: inline;
-    
-    border-bottom: outset;
-    z-index: -1;
-}
+/* Header Settings */
 
 .h {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 h1 {
     background: #4aaaa5;
     color: #ffffff;
-    width: 32%;
+    width: 29%;
     padding: 30px;
     margin-top: 0px;
     z-index: 2;
-    font-size: 32px;
+    font-size: 30px;
+    
 }
 
-#navbar {
+h2 {
+    color: #4aaaa5;
+    font-size: 24px;
+}
+
+/* Navigation Settings */
+
+.topnav {
+    background: #ffffff;
+    width: 100%;
+    border-bottom: inset #cccccc;
+    z-index: -1;
+    margin-bottom: 20px;   
+}
+
+.navbar {
     text-align: center;
     float: right;
-    margin-top: -100px;
+    margin-top: -80px;
     margin-bottom: 25px;
     padding: 30px;
-    background-color: #ffffff;
-    
+    background-color: #ffffff;    
+}
+
+.navbuttons {
+    text-decoration: none;
+    color: #666666;
+    padding: 10px;
+}
+
+.navbuttons:hover {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 35px 10px;
+}
+
+.navbuttons:active {
+    color: #ffffff;
+    background-color: #4fd8d1;
+}
+
+
+/* Body Settings */
+
+body{
+    background-image: url("../images/knitting250px_@2X.png");
+    width:960px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
 }
 
 section {
     clear: both;
     overflow: auto;
-    width: 960px;
+    width: 920px;
     background-color: #ffffff;
-    padding: 10px;
-    display: inline-block;
+    padding: 20px;
     margin-bottom: 20px;
-
+    
 }
 
-h2 {
-    color: #4aaaa5;
+.buttons {
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/* About Me Settings */
+#content {
+    display: inline-block;
+    line-height: 1.5;
+
 }
 
 #img1 {
     width: 200px;
     height: 200px;
     display: inline-block;
+    float: left;  
 }
 
+/* Contact Settings */
+.area1 {
+    width: 825px;
+}
+
+#submit {
+    padding: 12px 30px;
+    font-size: 14px;
+    margin: 4px 2px;
+}
+
+/* Portfolio Settings */
+.images {
+    z-index: -1;
+    margin: 20px;
+  
+}
+
+.imagebutton {
+    z-index: 2;
+    position: absolute;
+}
+
+/* Footer Settings */
 
 footer {
-    height: 40px;
+    height: 30px;
     background-color: #666666;
     width: 100%;
     border-top: #4aaaa5 solid 5px;
     font-size: 10px;
     color: #ffffff;
     text-align: center;
+    padding-top: 10px;
 }
