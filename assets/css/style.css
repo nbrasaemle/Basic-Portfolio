@@ -81,7 +81,7 @@ section {
     width: 920px;
     background-color: #ffffff;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     margin: auto;
     
 }
@@ -92,6 +92,10 @@ section {
     color: #ffffff;
     text-align: center;
     cursor: pointer;
+}
+
+.buttons:hover {
+    background-color: #4fd8d1;
 }
 
 
@@ -124,14 +128,24 @@ section {
 
 /* Portfolio Settings */
 .images {
-    z-index: -1;
+    z-index: -200;
     margin: 20px;
-  
 }
 
 .imagebutton {
-    z-index: 2;
-    position: absolute;
+    z-index: 200;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    position: absolute; 
+    bottom: 30px;
+    right: 20px;
+}
+
+.container {
+   display: inline-block;
+   position: relative;
+
 }
 
 /* Footer Settings */
@@ -145,5 +159,7 @@ footer {
     color: #ffffff;
     text-align: center;
     padding-top: 10px;
-    margin-top: 30px;
+    bottom: 0;
+    margin-top: 20px;
+    position: absolute;
 }
