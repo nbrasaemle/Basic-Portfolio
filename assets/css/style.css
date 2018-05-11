@@ -125,8 +125,7 @@ section {
 /* Portfolio Settings */
 .images {
     z-index: -200;
-    margin: 10px 20px 10px 0px;
-    
+    margin: 10px 20px 10px 0px; 
 }
 
 .imagebutton {
@@ -135,15 +134,16 @@ section {
     height: 40px;
     font-size: 16px;
     position: absolute; 
-    bottom: 30px;
-    right: 20px;
-    
+    bottom: 60px;
+    right: 65px;  
 }
 
 .container {
     display: inline-block;
     position: relative;
-
+    width: 300px;
+    height: 300px;
+    padding: 0px 25px 25px 0px;
 }
 
 
